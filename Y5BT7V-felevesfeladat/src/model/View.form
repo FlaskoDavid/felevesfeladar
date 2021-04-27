@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="model.View">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="680" height="465"/>
+    </constraints>
+    <properties>
+      <background color="-12625804"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="a19b">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <inheritsPopupMenu value="false"/>
+          <name value="Szimulacio beallitasai"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="ad62e" binding="page1" layout-manager="GridLayoutManager" row-count="9" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Szimulacio beallitasai"/>
+            </constraints>
+            <properties>
+              <background color="-12625804"/>
+              <name value="Szimulacio beallitasai"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="db384" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Munkak szama:"/>
+                </properties>
+              </component>
+              <component id="80696" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Eroforrasokszama:"/>
+                </properties>
+              </component>
+              <component id="bc2b5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Lepesek szama:"/>
+                </properties>
+              </component>
+              <component id="470bb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Szomszedok szama:"/>
+                </properties>
+              </component>
+              <component id="16f13" class="javax.swing.JTextField" binding="Jtextjob">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="80" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-983297"/>
+                  <foreground color="-16777216"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="d2400" class="javax.swing.JTextField" binding="JtextStep">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="80" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1179905"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="3b9f4" class="javax.swing.JTextField" binding="JtextLoop">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="80" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1179905"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="13a8d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <text value="Cmax"/>
+                </properties>
+              </component>
+              <component id="93335" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Munka megszakitas lehetseges"/>
+                </properties>
+              </component>
+              <component id="79289" class="javax.swing.JRadioButton" binding="JrbuttonNo">
+                <constraints>
+                  <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12625804"/>
+                  <foreground color="-16777216"/>
+                  <text value="Nem"/>
+                </properties>
+              </component>
+              <component id="6fd92" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <text value="Tmax"/>
+                </properties>
+              </component>
+              <component id="eebf1" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <text value="SumTi"/>
+                </properties>
+              </component>
+              <component id="bffa" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-16777216"/>
+                  <text value="SumUi"/>
+                </properties>
+              </component>
+              <component id="e314a" class="javax.swing.JRadioButton" binding="IJrbuttonYes">
+                <constraints>
+                  <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12625804"/>
+                  <foreground color="-16777216"/>
+                  <selected value="true"/>
+                  <text value="Igen"/>
+                </properties>
+              </component>
+              <component id="c9a98" class="javax.swing.JTextField" binding="JtextCmax">
+                <constraints>
+                  <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="25" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-852225"/>
+                  <foreground color="-16777216"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="81a9" class="javax.swing.JTextField" binding="JtextTmax">
+                <constraints>
+                  <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="25" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-852225"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="72c96" class="javax.swing.JTextField" binding="JtextSumTi">
+                <constraints>
+                  <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="25" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-852225"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="b39be" class="javax.swing.JTextField" binding="JtextSumUi">
+                <constraints>
+                  <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="25" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-852225"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="de17e" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="14" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Celfuggvenyek prioritasa"/>
+                </properties>
+              </component>
+              <component id="c1e65" class="javax.swing.JTextField" binding="JtextRes">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="80" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1179905"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="d713d" class="javax.swing.JButton" binding="JbtnGenerate">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1900781"/>
+                  <foreground color="-16777216"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="2"/>
+                  <text value="Generate"/>
+                </properties>
+              </component>
+              <component id="aee3a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="12" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="Szomszédsági operátor"/>
+                </properties>
+              </component>
+              <component id="8f2a" class="javax.swing.JRadioButton" binding="csereRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-4408132"/>
+                  <selected value="true"/>
+                  <text value="csere"/>
+                </properties>
+              </component>
+              <component id="33949" class="javax.swing.JRadioButton" binding="beszurasRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-4408132"/>
+                  <text value="beszuras"/>
+                </properties>
+              </component>
+              <component id="85d01" class="javax.swing.JRadioButton" binding="inverzRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-4408132"/>
+                  <text value="inverz"/>
+                </properties>
+              </component>
+              <component id="482c5" class="javax.swing.JRadioButton" binding="keveresRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-4408132"/>
+                  <text value="keveres"/>
+                </properties>
+              </component>
+              <component id="a47da" class="javax.swing.JRadioButton" binding="orderCrossoverRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-4408132"/>
+                  <text value="order crossover"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d8295" binding="page2" layout-manager="GridLayoutManager" row-count="3" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Szimulacio eredmeny"/>
+            </constraints>
+            <properties>
+              <background color="-12625804"/>
+              <name value="Szimulacio eredmeny"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e0185" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Tmax"/>
+                </properties>
+              </component>
+              <component id="96615" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="SumTi"/>
+                </properties>
+              </component>
+              <component id="ffbfd" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="SumUi"/>
+                </properties>
+              </component>
+              <component id="e5740" class="javax.swing.JTextField" binding="tamxfield">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="25" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <editable value="false"/>
+                  <foreground color="-16777216"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="14c7e" class="javax.swing.JTextField" binding="sumtifield">
+                <constraints>
+                  <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="25" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-918017"/>
+                  <editable value="false"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="25075" class="javax.swing.JTextField" binding="sumuifield">
+                <constraints>
+                  <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="25" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-918017"/>
+                  <editable value="false"/>
+                  <foreground color="-16777216"/>
+                </properties>
+              </component>
+              <component id="65e09" class="javax.swing.JTextField" binding="cmaxfield">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="25" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-918017"/>
+                  <editable value="false"/>
+                  <foreground color="-16777216"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="adeb8" class="javax.swing.JLabel" binding="Cmax">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Cmax"/>
+                </properties>
+              </component>
+              <component id="e3bbc" class="javax.swing.JRadioButton" binding="eroforrasGantRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <enabled value="true"/>
+                  <selected value="false"/>
+                  <text value="EroforrasGant"/>
+                </properties>
+              </component>
+              <component id="51bed" class="javax.swing.JRadioButton" binding="idoIntervalummokRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="6" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="IdoIntervalummok"/>
+                </properties>
+              </component>
+              <component id="fcdeb" class="javax.swing.JRadioButton" binding="munkaGantRadioButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="MunkaGant"/>
+                </properties>
+              </component>
+              <scrollpane id="4dffb">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="9" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="37922" class="javax.swing.JTextArea" binding="table">
+                    <constraints/>
+                    <properties>
+                      <editable value="false"/>
+                    </properties>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="cut_mode">
+      <member id="79289"/>
+      <member id="e314a"/>
+    </group>
+    <group name="JbtngroupIO">
+      <member id="e3bbc"/>
+      <member id="51bed"/>
+      <member id="fcdeb"/>
+    </group>
+    <group name="operator">
+      <member id="8f2a"/>
+      <member id="33949"/>
+      <member id="85d01"/>
+      <member id="482c5"/>
+      <member id="a47da"/>
+    </group>
+  </buttonGroups>
+</form>
